@@ -35,7 +35,7 @@ const Facts = () => {
           <div className='mb-2'>
             <img src={ImageSignature} alt="signature" srcset="" />
           </div>
-          <div className='text-lg mb-6 font-bold text-heading '>
+          <div className='text-lg mb-20 font-bold text-heading '>
             Ndeme Yvan/<span className='text-paragraph font-normal'>Founder</span>
           </div>
         </div>
