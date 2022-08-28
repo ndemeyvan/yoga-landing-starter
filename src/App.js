@@ -20,7 +20,8 @@ const App = () => {
     <Facts />
     <Features />
     <Courses />
-    <Pricing/>
+    <Pricing />
+    <Newsletter />
     <div className="h-[2000px]"></div>
   </div>;
 };
