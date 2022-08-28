@@ -19,7 +19,7 @@ const Courses = () => {
         {courses.map((item, index) => {
           // destructuring
           const { image, title, desc, link, delay } = item;
-          return <div className='w-full bg-white shadow-primary max-w-[360px] transition px-[18px] pb-[26px] lg:px-[28px] lg:pb-[38px] rounded-[14px] mx-auto hover:scale-100' key={index}>
+          return <div data-aos='fade-up' data-aos-delay='400' className='w-full bg-white shadow-primary max-w-[360px] transition px-[18px] pb-[26px] lg:px-[28px] lg:pb-[38px] rounded-[14px] mx-auto hover:scale-100' key={index}>
             {/* Image */}
             <div className='-mt-[38px] lg:-mt-[12px] mb-4 lg:mb-6'>
               <img src={image} alt="" srcset="" />
@@ -50,7 +50,7 @@ const Courses = () => {
       </div>
       {/* Browse all button */}
       <div className='text-center'>
-        <button className='btn btn-sm lg:btn-lg bg-orange text-white'>Browse All</button>
+        <button className='btn btn-sm lg:btn-lg bg-orange text-white' data-aos='fade-up' data-aos-delay='600'>Browse All</button>
       </div>
     </div>
   </section>;

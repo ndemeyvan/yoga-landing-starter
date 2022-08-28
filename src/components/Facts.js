@@ -9,7 +9,7 @@ import { facts } from '../data'
 const Facts = () => {
   return <div className='mt-[90px]'>
     {/* Left side : counter ect ...*/}
-    <div className='container mx-auto  flex flex-col lg:flex-row flex-wrap lg:gap-x-[30px]'>
+    <div className='container mx-auto  flex flex-col lg:flex-row flex-wrap lg:gap-x-[30px]' data-aos='fade-right' data-aos-delay='600'>
       <div className='flex-1 flex flex-wrap gap-x-[5%] gap-y-[35px]'>
         {facts.map((item, index) => {
           // item destructuration 
@@ -28,14 +28,14 @@ const Facts = () => {
         })}
       </div>
       {/* Rigth side : signature ect ...*/}
-      <div className='-order-1  lg:order-none'>
+      <div className='-order-1  lg:order-none' data-aos='fade-left' data-aos-delay='500'>
         <div className='flex flex-col justify-center lg:pl-[20px] h-full'>
           <h2 className='h2 mb-12 max-w-[295px] md:max-w-[450px]'>Relax And Enjoy Personalized Day Yoga with us.</h2>
           {/* Image */}
-          <div className='mb-2'>
+          <div className='mb-2' data-aos='fade-left' data-aos-delay='600'>
             <img src={ImageSignature} alt="signature" srcset="" />
           </div>
-          <div className='text-lg mb-20 font-bold text-heading '>
+          <div className='text-lg mb-20 font-bold text-heading ' data-aos='fade-left' data-aos-delay='600'>
             Ndeme Yvan/<span className='text-paragraph font-normal'>Founder</span>
           </div>
         </div>

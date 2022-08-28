@@ -23,7 +23,7 @@ const Pricing = () => {
     <div className='flex flex-col lg:flex-row lg:gap-x-[33px] gap-y-7 justify-center items-center'>
       {pricing.map((item, currentIndex) => {
         const { title, price, list } = item;
-        return <div onClick={() => handSelection(currentIndex)} className='relative cursor-pointer bg-white max-w-[360px] w-full min-h-[668px] h-full' key={currentIndex}>
+        return <div data-aos='fade-up' data-aos-delay='300' onClick={() => handSelection(currentIndex)} className='relative cursor-pointer bg-white max-w-[360px] w-full min-h-[668px] h-full' key={currentIndex}>
           {/* Card top */}
           <div className={`${initialIndex === currentIndex ? 'bg-orange text-white' : 'bg-white text-heading'}  text-center pt-[70px]  pb-[34px] border border-b border-stroke-3 transition `}>
             <div className='text-[24px] font-medium mb-[10px]'>

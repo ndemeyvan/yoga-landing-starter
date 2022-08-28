@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md'
 const Newsletter = () => {
   return <section className='section-sm lg:section-lg bg-cardsBg min-h-[520px]'>
 
-    <div className='container mx-auto '>
+    <div className='container mx-auto ' data-aos='fade-up' data-aos-delay='300'>
       {/* Text subscribe */}
       <div className='border-[8px] border-green-300 rounded-lg text-center py-[70px]  p-4'>
         <h4 className='h4 text-white text-[24px] font-bold mb-[14px] '>

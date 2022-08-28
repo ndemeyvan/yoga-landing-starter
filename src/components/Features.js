@@ -16,7 +16,7 @@ const Features = () => {
   }
 
   return <section className='bg-section pt-8 min-h-[428px] pb-[38px] lg:pb-[150px] mt-[120px] lg:mt-[130px]'>
-    <div className="container mx-auto">
+    <div className="container mx-auto" data-aos='fade-up' data-aos-delay='300'>
       {/* Bg Video */}
       <div className='mt-10  lg:mt-[90px] rounded-md mb-[28px] w-full  bg-video h-[310px] bg-cover bg-center bg-no-repeat lg:h-[622px] flex flex-col items-center justify-center'>
         {/* Video Play btn*/}
@@ -25,14 +25,14 @@ const Features = () => {
         </div>
       </div>
       {/* Text */}
-      <div className='lg:mt-[90px] flex flex-col lg:flex-row justify-between'>
+      <div className='lg:mt-[90px] flex flex-col lg:flex-row justify-between' data-aos='fade-right' data-aos-delay='600'>
         <div className=''>
           {/* Line orange */}
           <div className='w-9 h-[2px] bg-orange mb-2 lg:w-[70px] rounded-full'></div>
           <h2 className='h2 mb-3 lg:mb-0'>The Better Way to <br /> Start Yoga</h2>
 
         </div>
-        <div>
+        <div data-aos='fade-left' data-aos-delay='300'>
           <div>
             <p className='max-w-[360px] mb-[18px] lg:mb-[38px]'>Practice any whre anytime. Explore a new way to exercise and learn more about yourself we are providing the best.</p>
           </div>
