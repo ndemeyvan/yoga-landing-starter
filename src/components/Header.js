@@ -10,6 +10,12 @@ import Logo from '../assets/img/logo.png';
 
 const Header = () => {
   const [header, setHeader] = useState(false);
+  useEffect(() => {
+    //Listent windows movement
+    window.addEventListener('scroll', () => {
+      window.scrollY > 36 ? setHeader(true) : setHeader(false);
+    })
+  })
   return <div className={`${header ? 'top-0' : 'top-9'} flex justify-between  items-center px-4 lg:px-8 z-20 transition-all duration-200 fixed w-full bg-white max-w-[90vw] lg:max-w-[1170px] mx-auto rounded-md h-[90px] shadow-primary `}>
 
     <div className="flex items-center">

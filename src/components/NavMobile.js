@@ -16,7 +16,7 @@ const NavMobile = () => {
     {/* Menu items */}
     <ul className={`${isOpen ? 'max-h-70 p-8' : 'max-h-0 p-0'} flex flex-col w-full absolute bg-white top-24 left-0 shadow-primary space-y-5 overflow-hidden transition-all `}>
       {navigation.map((item, index) => {
-        return (<li key={index}><a href={item.href}>item.name</a></li>)
+        return (<li key={index}><a href={item.href}>{item.name}</a></li>)
       })}
     </ul>
   </div>;
