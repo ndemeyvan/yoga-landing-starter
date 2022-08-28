@@ -37,7 +37,7 @@ const Cards = () => {
         <div className='max-w-[240px] '>
           <div className='flex items-center mb-4 lg:mb-8'>
             <h4 className='text-lg lg:text-2xl lg:leading-7 font-bold text-heading mr-8'>Every-Day Open Master Classes</h4>
-            <h2 className='h2 text-stroke-2'>3</h2>
+            <h2 className='h2 text-stroke-4'>3</h2>
           </div>
           <p className='mb-4 lg:mb-3'>We're boosting online yoga by enabling anyone in the world to learn from the best </p>
           <a href="#" className='text-xs lg:text-sm font-bold uppercase text-heading border-b'>Read more</a>

@@ -41,6 +41,7 @@ module.exports = {
         1: '#B0B4C0',
         2: '#CFCFCF',
         3: '#F4F5F7',
+        4: '#ff531a ',
       },
       section: '#F5F6F9',
       shape: '#E8EEF0',
