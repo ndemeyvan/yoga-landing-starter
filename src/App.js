@@ -17,6 +17,7 @@ const App = () => {
   return <div className='overflow-hidden'>
     <Hero />
     <Cards />
+    <Facts/>
     <div className="h-[2000px]"></div>
   </div>;
 };
